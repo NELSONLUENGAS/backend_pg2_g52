@@ -1,0 +1,34 @@
+POST http://127.0.0.1:3000/api/todos/add
+Content-Type: application/json
+
+{
+    "title": "ToDo #6 🤧"
+}
+
+###
+POST http://127.0.0.1:3000/api/users/create
+Content-Type: application/json
+
+{
+    "edad": "dos",
+    "role": "user",
+    "email": "email23_-%ASD.test@domini.es"
+}
+
+###
+GET  http://127.0.0.1:3000/api/todos/get-all
+Content-Type: application/json
+
+
+###
+PUT http://127.0.0.1:3000/api/trips/update/2
+Content-Type: application/json
+
+{
+    "destino":"Paris",
+    "presupuesto": 15000
+}
+
+###
+DELETE http://127.0.0.1:3000/api/trips/delete/6
+Content-Type: application/json
